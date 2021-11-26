@@ -1,11 +1,15 @@
 package com.base.demo
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
+import com.basic.withbutterknife.BasicActivity
 
-class MainActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+class MainActivity : BasicActivity() {
+    override fun initView() {
+
     }
+
+    override fun initData() {
+    }
+
+
+    override fun getLayoutId() = R.layout.activity_main
 }
