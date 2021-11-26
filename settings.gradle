@@ -2,5 +2,5 @@ include ':basicwithbutterknifelibrary'
 include ':app'
 rootProject.name = "BasicWithButterknifeDemoApplication"
 
-include ':basiclibrary'
-project(':basiclibrary').projectDir = new File('../Basic-WithoutBind/basiclibrary')
+//include ':basiclibrary'
+//project(':basiclibrary').projectDir = new File('../Basic-WithoutBind/basiclibrary')

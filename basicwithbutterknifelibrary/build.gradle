@@ -43,5 +43,6 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'com.jakewharton:butterknife:10.2.3'
     kapt 'com.jakewharton:butterknife-compiler:10.2.3'
-    api project(":basiclibrary")
+//    api project(":basiclibrary")
+    implementation 'com.github.ITDinasour:Basic-WithoutBind:0.1'
 }
