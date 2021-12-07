@@ -1,7 +1,6 @@
 plugins {
     id 'com.android.library'
     id 'kotlin-android'
-    id 'kotlin-kapt'
 }
 
 android {
@@ -41,8 +40,6 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
-    implementation 'com.jakewharton:butterknife:10.2.3'
-    kapt 'com.jakewharton:butterknife-compiler:10.2.3'
-//    api project(":basiclibrary")
-    api 'com.github.ITDinasour:Basic-WithoutBind:0.1'
+    api 'com.jakewharton:butterknife:10.2.3'
+    api 'com.github.ITDinasour:Basic-WithoutBind:0.2'
 }

@@ -12,8 +12,8 @@ import com.basic.withoutbinding.BasicPopDialogWithoutBinding
  *    @泛型   : T-用于链式结构返回类型，填写当前PopDialog
  *    @version: 1.0
  */
-abstract class BasicPopDialog<T : BasicPopDialog<T, *>, A : Activity>(mActivity: A) :
-    BasicPopDialogWithoutBinding<T, A>(mActivity), InitLayout {
+abstract class BasicPopDialog<A : Activity>(mActivity: A) :
+    BasicPopDialogWithoutBinding<A>(mActivity), InitLayout {
     override fun initContentView(): View {
         val rootView = LayoutInflater.from(mActivity).inflate(getLayoutId(), null, false)
         ButterKnife.bind(this, rootView)
