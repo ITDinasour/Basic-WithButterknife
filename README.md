@@ -14,7 +14,7 @@
  Step 2. Add the dependency
  ```kotlin 
  	dependencies {
- 	        implementation 'com.github.ITDinasour:Basic-WithButterknife:0.2'
+ 	        implementation 'com.github.ITDinasour:Basic-WithButterknife:0.2.1'
             kapt 'com.jakewharton:butterknife-compiler:10.2.3'//kotlin
         //  annotationProcessor 'com.jakewharton:butterknife-compiler:10.2.3'//java
  	}
